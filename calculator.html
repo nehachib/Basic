@@ -1,0 +1,75 @@
+<html>
+<head>
+<title> calculator</title>
+<script>
+
+function sum()
+{
+var x= document.getElementById("demo").value;
+var y= document.getElementById("demoo").value;
+var z= parseInt(x)+parseInt(y);
+document.getElementById("demooo").value=z;
+}
+
+function difference()
+{
+var x= document.getElementById("demo").value;
+var y= document.getElementById("demoo").value;
+var z= parseInt(x)-parseInt(y);
+document.getElementById("demooo").value=z;
+}
+
+function divide()
+{
+var x= document.getElementById("demo").value;
+var y= document.getElementById("demoo").value;
+var z= parseInt(x)/parseInt(y);
+document.getElementById("demooo").value=z;
+}
+
+function multiply()
+{
+var x= document.getElementById("demo").value;
+var y= document.getElementById("demoo").value;
+var z= parseInt(x)*parseInt(y);
+document.getElementById("demooo").value=z;
+}
+
+
+</script>
+</head>
+
+<body>
+<form>
+<center>
+<h1> Calculator </h1>
+<table border="1">
+<tr>
+<td> enter first number </td>
+<td><input type="text" name="text" id="demo" ></td>
+</tr>
+
+<tr>
+<td> enter second number</td>
+<td> <input type="text" name="text1" id="demoo"></td>
+</tr>
+
+<tr>
+<td> result </td>
+<td> <input type="text" name="text2" id="demooo"></td>
+</tr>
+
+<tr>
+<td colspan="2" style="text-align:center">
+<input type="button" name="button" id="click" onclick="sum()" value="sum">
+<input type="button" name="button" id="click" onclick="difference()" value="difference">
+<input type="button" name="button" id="click" onclick="divide()" value="divide">
+<input type="button" name="button" id="click" onclick="multiply()" value="multiply">
+
+</td>
+</tr>
+</table>
+</center>
+</form>
+</body>
+</html>
