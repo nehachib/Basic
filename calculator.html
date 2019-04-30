@@ -6,33 +6,33 @@
 function sum()
 {
 var x= document.getElementById("demo").value;
-var y= document.getElementById("demoo").value;
+var y= document.getElementById("demo1").value;
 var z= parseInt(x)+parseInt(y);
-document.getElementById("demooo").value=z;
+document.getElementById("demo2").value=z;
 }
 
 function difference()
 {
 var x= document.getElementById("demo").value;
-var y= document.getElementById("demoo").value;
+var y= document.getElementById("demo1").value;
 var z= parseInt(x)-parseInt(y);
-document.getElementById("demooo").value=z;
+document.getElementById("demo2").value=z;
 }
 
 function divide()
 {
 var x= document.getElementById("demo").value;
-var y= document.getElementById("demoo").value;
+var y= document.getElementById("demo1").value;
 var z= parseInt(x)/parseInt(y);
-document.getElementById("demooo").value=z;
+document.getElementById("demo2").value=z;
 }
 
 function multiply()
 {
 var x= document.getElementById("demo").value;
-var y= document.getElementById("demoo").value;
+var y= document.getElementById("demo1").value;
 var z= parseInt(x)*parseInt(y);
-document.getElementById("demooo").value=z;
+document.getElementById("demo2").value=z;
 }
 
 
@@ -60,11 +60,16 @@ document.getElementById("demooo").value=z;
 </tr>
 
 <tr>
+
+
+
 <td colspan="2" style="text-align:center">
 <input type="button" name="button" id="click" onclick="sum()" value="sum">
 <input type="button" name="button" id="click" onclick="difference()" value="difference">
 <input type="button" name="button" id="click" onclick="divide()" value="divide">
 <input type="button" name="button" id="click" onclick="multiply()" value="multiply">
+
+
 
 </td>
 </tr>
